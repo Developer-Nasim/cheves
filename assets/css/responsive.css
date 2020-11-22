@@ -1,0 +1,117 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+
+.menu-links ul li a {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 9px;
+}
+.menu-links.borde-two {  
+    width: 21%;
+    padding-left: 5px;
+}
+
+.lang-select.text-center {
+    margin: 0;
+    width: 19%;
+}
+.extra-link:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 64px;
+    background: #fff;
+    right: 0;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+	
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.menu-links ul li a {
+    color: #fff;
+    padding-right: 5px;
+    font-size: 15px;
+}
+ .extra-link:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 64px;
+    background: #fff;
+    right: 0;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
