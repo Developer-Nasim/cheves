@@ -175,13 +175,14 @@ top: -10px;
     z-index: 99;
     display: block;
     height: 100vh;
-    right: -520px;
+    right: 0px;
     top: 86px;
     text-align: center;
     padding: 36px 0;
-    transition: .3s;
-    transform: scale(0);
-    padding: 15%
+    transition: .3s; 
+    padding: 15%;
+    opacity: 0;
+    visibility:hidden
 }
 .main-menu nav ul li a {
     color: #fff;
@@ -191,8 +192,8 @@ top: -10px;
     font-weight: 700
 }
 .main-menu nav ul.active {
-    transform: scale(1);
-    right: 0;
+    opacity: 0;
+    visibility:hidden;
     top: 100px;
 }
  .hero-area {
