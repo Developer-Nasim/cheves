@@ -175,7 +175,7 @@ top: -10px;
     z-index: 99;
     display: block;
     height: 100vh;
-    right: 0px;
+    right: -10000px;
     top: 86px;
     text-align: center;
     padding: 36px 0;
@@ -193,8 +193,9 @@ top: -10px;
 }
 .main-menu nav ul.active {
     opacity: 1;
-    visibility:visible;
+    visibility: visible;
     top: 100px;
+    right: 0px;
 }
  .hero-area {
     background-image: url(../img/hero.jpg);
